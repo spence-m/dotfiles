@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 0,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Night Owl",
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "C:\\cmder\\Cmder.exe",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "window.newWindowDimensions": "maximized"
+}
