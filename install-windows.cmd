@@ -12,6 +12,7 @@ call code --install-extension shardulm94.trailing-spaces
 copy /y %DOTFILES%\cmder\ConEmu.xml %ConEmuDir%
 
 :: git
+git config --global include.path %DOTFILES%\git\.gitconfig
 git config --global core.excludesfile %DOTFILES%\git\.gitignore
 
 :: secrets
