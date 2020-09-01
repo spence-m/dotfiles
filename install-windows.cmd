@@ -10,6 +10,8 @@ call code --install-extension shardulm94.trailing-spaces
 
 :: cmder
 copy /y %DOTFILES%\cmder\ConEmu.xml %ConEmuDir%
+copy /y %DOTFILES%\cmder\user_profile.cmd %CMDER_ROOT%\config
+copy /y %DOTFILES%\cmder\user_profile.sh %CMDER_ROOT%\config
 
 :: git
 git config --global include.path %DOTFILES%\git\.gitconfig
