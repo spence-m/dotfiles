@@ -1,7 +1,7 @@
 ## Windows
 
 Install the following tooling:
-* Git bash
+* [Git for Windows](https://gitforwindows.org/)
 
 Create secrets file:
 `Copy-Item -Path .\secrets-windows.ps1.dist -Destination .\secrets-windows.ps1`
