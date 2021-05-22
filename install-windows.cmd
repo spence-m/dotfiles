@@ -12,5 +12,8 @@ call code --install-extension shardulm94.trailing-spaces
 git config --global include.path %DOTFILES%\git\.gitconfig
 git config --global core.excludesfile %DOTFILES%\git\.gitignore
 
+:: ssh
+copy %DOTFILES%\ssh\config %USERPROFILE%\.ssh\
+
 :: secrets
-.\secrets-windows
+powershell -noexit "& ".\secrets-windows.ps1
