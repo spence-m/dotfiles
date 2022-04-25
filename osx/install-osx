@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+DOTFILES=${PWD%/*}
+
+touch ~/.bash_profile
+
+./brew
+./nvm
+./config-git
+
+source ~/.bash_profile
+
+cp -a $DOTFILES/osx/vscode/. $HOME/Library/Application\ Support/Code/User/
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension sdras.night-owl
+code --install-extension shardulm94.trailing-spaces
+
+./secrets-osx
